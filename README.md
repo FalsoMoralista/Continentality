@@ -32,7 +32,7 @@ As the goal was to train regression models to fit the data, we evaluated the Lin
   <img src="https://i.imgur.com/y1KuW9c.png">
 </p>
 
-## Correlation - Relief
+## Correlation - Relief Map
 
 <p align="Center">
   <img src="https://github.com/FalsoMoralista/Continentality/blob/main/Plots/mapa-relevo-bahia.jpg?raw=true" height="560px">
