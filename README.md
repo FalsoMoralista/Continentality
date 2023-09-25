@@ -34,5 +34,3 @@ As the goal was to train regression models to fit the data, we evaluated the Lin
   <img src="https://github.com/FalsoMoralista/Continentality/blob/main/Plots/mapa-relevo-bahia.jpg?raw=true" height="560px">
 </p>
 
-### Feedback from the tutors:
-Even though results evidenced that inferring average temperatures from the above attributes is possible with reasonable precision in a general way, we were heavily discouraged to "use data generation approaches" and therefore penalized for using creativity, or, in other words, for "not sticking to the project proposal/generating data" although the project proposal asked for **analyzing the effects of continentality in the extremities of the state with curve fitting approaches** - data that we didn't have 🤔.
