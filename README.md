@@ -41,3 +41,7 @@ Analysis/Results
   <img src="https://github.com/FalsoMoralista/Continentality/blob/main/Plots/mapa-relevo-bahia.jpg?raw=true" height="560px">
 </p>
 
+# Future work
+- Test other encoding functions for temporal data (e.g., sine)
+- Interactive web page deploy.
+- Other models (mlp). 
