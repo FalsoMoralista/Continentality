@@ -25,6 +25,11 @@ The first step was to train the models to fit the data so we choosed to evaluate
 
 Through this, for each regression model we had 5 temperature predictions of which we used to compute the final prediction by taking the average amongst them. This is a terrible heuristic since it considers that these variables are independent. That was not the case for the multivariate regression model, as it goes through an optimization process that relates these variables by finding coefficient values for each of them (fitting a hyperplane to the data).  
 
+Complementary data
+[...]
+
+Analysis/Results
+[...] the effects of continentality are most significantly observed at the variance over daily-level average temperatures [...]
 # Product
 
 <p align="">
