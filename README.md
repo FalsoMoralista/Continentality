@@ -13,7 +13,7 @@ In order to do so we were provided with data from 25 cities (out of 417) - **an 
   <img src="/Plots/data.png">
 </p>
 
-###  It is quite straightforward to see that to learn the task accurately means, in someway, to check the hypothesis that average temperatures can be inferred from lat, long and altitude, but another aspect that we wanted to verify was whether prediction precision correlated with the distance to the nearest climate station for the cities in which the data was absent. 
+###  It is quite straightforward to see that to learn the task accurately means, in someway, to verify the hypothesis that average temperatures can be inferred from lat, long and altitude, but another aspect that we wanted to verify (empirically) was whether prediction precision correlated with the distance to the nearest climate station for the cities in which the data was absent. 
 
 > The figure below demonstrates the dataset coverage in terms of cities in which data was available. We can see a plot of the average temperatures for the year of 2019.
 <p align="">
@@ -23,10 +23,10 @@ In order to do so we were provided with data from 25 cities (out of 417) - **an 
 # Practice
 The first step was to train the models to fit the data so we choosed to evaluate the Linear, Polynomial and Multivariate regression approaches. Considering that for the Linear and Polynomial regression approaches we could only relate the dependent variable (temparature) to one of the independent variables, the heuristics consisted of fitting one curve for each of the independent variable (e.g., Temperature x Altitude, Temperature x Latitude, Temperature vs Longitude and so on). 
 
-Through this, for each regression model we had 5 temperature predictions of which we used to compute the final prediction by taking the average amongst them. This is a terrible heuristic since it considers that these variables are independent. That was not the case for the multivariate regression model, as it goes through an optimization process that relates these variables by finding coefficient values for each of them (fitting a hyperplane to the data).  
+Through this, for each regression model we had 5 temperature predictions of which we used to compute the final prediction by averaging them. This is a terrible heuristic since it disregards the variance of the data. That was not the case for the multivariate regression model, as it goes through an optimization process that relates these variables by finding coefficient values for each of them (fitting a hyperplane to the data).   
 
-Complementary data
-[...]
+### Complementary data
+We had to find the complementary data for the cities in which the data wasn't available, namely: altitude, latitude, longitude. And so we did through the web. 
 
 Analysis/Results
 [...] the effects of continentality are most significantly observed at the variance over daily-level average temperatures [...]
